@@ -1,0 +1,104 @@
+canonical_identifier: bkk:krp/KR6i0112/v1
+canonical_location: https://kanripo.org/bkk/KR6i0112/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 三曼陀跋陀羅菩薩經
+  identifiers:
+    alt_id:
+    - T14n0483
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0483.xml
+    old_id: T14n0483
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0112_000.yaml, hash: 'sha256:1490fa3940f114c7907091d27db335a317141856a5feba919e7ccc7a3fc20fcd'}
+  - {seq: 1, filename: KR6i0112_001.yaml, hash: 'sha256:e4d18dc579b4327a4d9e31895d9b4fe9a951639135c521bf9703306f0fa083c4'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0112_001.markers.yaml, hash: 'sha256:03d02012d9dc82d8c4ad56e5adb649d727c2b1197e995127b1535ca050744d30'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0112_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2864
+  label: 三曼陀跋陀羅菩薩經
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0112_T_001-mulu-1
+    span:
+    - body
+    - 8
+    - 8
+  label: 1 五蓋品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0112_T_001-mulu-2
+    span:
+    - body
+    - 278
+    - 278
+  label: 2 悔過品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0112_T_001-mulu-3
+    span:
+    - body
+    - 1209
+    - 1209
+  label: 3 願樂品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0112_T_001-mulu-4
+    span:
+    - body
+    - 1502
+    - 1502
+  label: 4 請勸品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0112_T_001-mulu-5
+    span:
+    - body
+    - 2585
+    - 2585
+  label: 5 譬福品
+  type: mulu
+  level: 1
+hash: sha256:a7510941c7128beb410bde7eabf29a8d3800fb4c7ab90926e8b49ceb88d4d146
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
